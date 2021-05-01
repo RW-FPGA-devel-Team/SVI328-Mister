@@ -73,7 +73,6 @@ entity cv_console is
     clk_en_10m7_i   : in  std_logic;
 	 clk_en_5m3_i   : in  std_logic;
     reset_n_i       : in  std_logic;
-	 intnmi_flag	  : in  std_logic_vector(1 downto 0);	 
 
     svi_row_o       : out std_logic_vector(3 downto 0);
     svi_col_i       : in  std_logic_vector(7 downto 0);	 

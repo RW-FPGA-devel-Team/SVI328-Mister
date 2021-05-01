@@ -439,8 +439,6 @@ cv_console console
 	.clk_en_10m7_i(ce_10m7),
 	.clk_en_5m3_i(ce_5m3),
 	.reset_n_i(~reset),
-	.intnmi_flag(status[13:12]),
-	.por_n_o(),
 
    .svi_row_o(svi_row),
    .svi_col_i(svi_col),	
